@@ -1,0 +1,6 @@
+version=3
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-brace-expansion-$1.tar.gz/ \
+https://github.com/juliangruber/brace-expansion/tags \
+.*/archive/v?([\d\.]+).tar.gz

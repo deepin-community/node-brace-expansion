@@ -1,0 +1,50 @@
+node-brace-expansion (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * New upstream version 2.0.0
+  * Remove dependency to node-concat-map
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 02 Nov 2020 13:35:21 +0100
+
+node-brace-expansion (1.1.11-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+  * Trim trailing whitespace.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * New upstream version 1.1.11
+  * Use pkg-js-tools auto install
+  * Enable upstream test
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 14 Jan 2020 21:41:03 +0100
+
+node-brace-expansion (1.1.8-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #862712)
+
+ -- Sruthi Chandran <srud@disroot.org>  Wed, 28 Jun 2017 00:51:39 +0530
+
+node-brace-expansion (1.1.6-1) unstable; urgency=low
+
+  [ Bas Couwenberg ]
+  * Initial release (Closes: #780660)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 25 Oct 2016 22:29:22 +0530
