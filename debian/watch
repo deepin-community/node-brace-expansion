@@ -1,6 +1,8 @@
-version=3
+version=4
 opts=\
-dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-brace-expansion-$1.tar.gz/ \
-https://github.com/juliangruber/brace-expansion/tags \
-.*/archive/v?([\d\.]+).tar.gz
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-brace-expansion-$1/ \
+https://github.com/juliangruber/brace-expansion/tags .*?([\d\.]+).tar.gz group
+
+opts="searchmode=plain,component=types-brace-expansion,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-brace-expansion-$1/" \
+ https://registry.npmjs.org/@types/brace-expansion https://registry.npmjs.org/@types/brace-expansion/-/brace-expansion-([\d\.]+)@ARCHIVE_EXT@ group
