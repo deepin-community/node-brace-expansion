@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: brace-expansion
 Upstream-Contact: Julian Gruber <mail@juliangruber.com>
 Source: https://github.com/juliangruber/brace-expansion
+ https://registry.npmjs.org/@types/brace-expansion
 
 Files: *
 Copyright: 2013, Julian Gruber <mail@juliangruber.com>
@@ -9,7 +10,11 @@ License: Expat
 
 Files: debian/*
 Copyright: 2015, Bas Couwenberg <sebastic@debian.org>
- 2020, Xavier Guimard <yadd@debian.org>
+ 2020, Yadd <yadd@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
