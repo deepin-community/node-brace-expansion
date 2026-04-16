@@ -1,22 +1,25 @@
 {
     "name": "@types/brace-expansion",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "description": "TypeScript definitions for brace-expansion",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/brace-expansion",
     "license": "MIT",
     "contributors": [
         {
             "name": "BendingBender",
+            "githubUsername": "BendingBender",
             "url": "https://github.com/BendingBender"
         }
     ],
     "main": "",
+    "types": "index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/brace-expansion"
     },
     "scripts": {},
     "dependencies": {},
-    "peerDependencies": {},
-    "typesPublisherContentHash": "8e9785196f1d50c91b75d436b5ff9e343fe41144fe50102eab44247d926e646d",
-    "typeScriptVersion": "2.0"
+    "typesPublisherContentHash": "404804ede17a2773635186ba78f69b12155b2315f54c67398836e887ec9742e7",
+    "typeScriptVersion": "4.5"
 }

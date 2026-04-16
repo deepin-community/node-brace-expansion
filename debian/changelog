@@ -1,3 +1,31 @@
+node-brace-expansion (2.0.3+~1.1.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.7.4
+  * Fix DoS via exponential brace expansion (Closes: #1127313, CVE-2026-25547)
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 06 Apr 2026 11:52:07 +0200
+
+node-brace-expansion (2.0.3+~1.1.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.7.3
+  * Drop "Rules-Requires-Root: no"
+  * Drop "Priority: optional"
+  * debian/watch version 5
+  * New upstream version (Closes: #1132163, CVE-2026-33750)
+  * Drop patch included in upstream
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 29 Mar 2026 11:36:04 +0200
+
+node-brace-expansion (2.0.1+~1.1.0-2) unstable; urgency=medium
+
+  * Declare compliance with policy 4.7.2
+  * Fix potential ReDoS vulnerability or inefficient regular expression
+    (Closes: #1107695, CVE-2025-5889)
+
+ -- Yadd <yadd@debian.org>  Thu, 12 Jun 2025 11:55:12 +0200
+
 node-brace-expansion (2.0.1+~1.1.0-1) unstable; urgency=medium
 
   * Team upload
